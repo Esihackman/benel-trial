@@ -44,7 +44,7 @@ export default function Navbar() {
       >
        <div className="container mx-auto px-4 h-14 flex justify-between items-center">
   <div
-    className="text-2xl font-bold cursor-pointer transition-colors duration-300 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent hover:from-yellow-500 hover:to-yellow-700"
+    className="text-2xl font-bold cursor-pointer transition-colors duration-300 bg-gradient-to-r from-[#00A896] to-[#007BFF] bg-clip-text text-transparent hover:from-[#007BFF] hover:to-[#00A896]"
     onClick={() => handleLinkClick('hero')}
   >
     Assurob

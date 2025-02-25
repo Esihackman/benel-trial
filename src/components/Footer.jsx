@@ -2,7 +2,7 @@ import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#004721] text-white py-8">
+    <footer className="w-full bg-[#00A896] text-white py-8">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         <p className="text-lg">&copy; 2024 Assuah Robotics. All rights reserved.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">

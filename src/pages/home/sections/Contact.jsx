@@ -4,11 +4,11 @@ export default function ContactSection() {
   return (
     <section className="w-full py-20 bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-[#004721] mb-12">Contact the Innovator</h2>
+        <h2 className="text-4xl font-bold text-center text-[#00A896] mb-12">Contact the Innovator</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
           {/* Left Section - Contact Details */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-[#004721]">Get in Touch</h3>
+            <h3 className="text-2xl font-semibold text-[#00A896]">Get in Touch</h3>
             <p className="text-gray-700 leading-relaxed text-lg">
               If you are interested in learning more about our innovative tracking helmets or have any inquiries,
               feel free to reach out. We're happy to discuss how our technology can enhance safety in
@@ -32,7 +32,7 @@ export default function ContactSection() {
 
           {/* Right Section - Contact Form */}
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-semibold text-[#004721] mb-6">Send a Message</h3>
+            <h3 className="text-2xl font-semibold text-[#00A896] mb-6">Send a Message</h3>
             <form className="space-y-4">
               <input
                 type="text"
@@ -51,7 +51,7 @@ export default function ContactSection() {
               ></textarea>
               <button
                 type="submit"
-                className="bg-[#009c4a] hover:bg-[#004721] text-white px-6 py-3 rounded-2xl text-lg shadow-lg transition-transform transform hover:scale-105"
+                className="bg-[#00A896] hover:bg-[#007BFF] text-white px-6 py-3 rounded-2xl text-lg shadow-lg transition-transform transform hover:scale-105"
               >
                 Send Message
               </button>
