@@ -1,1 +1,16 @@
 @import "tailwindcss";
+/* @import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css"; */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
